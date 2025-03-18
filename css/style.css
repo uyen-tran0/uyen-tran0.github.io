@@ -1,0 +1,164 @@
+.almendra-sc-regular {
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    color:white;
+    font-family: "Special Elite", system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+    color: red;
+    font-size: 5vw; 
+    font-family: "Almendra SC", serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    white-space: nowrap; 
+}
+
+
+.h2 {
+    font-family: "Almendra SC", serif;
+    font-size: 500%;
+    color:red;
+    text-align: center;
+}
+.container {
+    background-color: black;
+    background-image: url(../img/moroccan-flower-dark.png);
+    /*
+    background-repeat: repeat-y;
+    background-position: center;
+    background-image: linear-gradient(orange,blue);
+    */
+    background-image: url(../img/c_poster.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container2 {
+    padding: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color:white;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.black {
+    border: 5px orange dotted;
+}
+
+img{
+    width: 25%;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+.synopsis img{
+    width: 100%;
+}
+
+.synopsis {
+    padding: 5%;
+}
+
+.left{
+    display:inline-block;
+}
+
+.right{
+    display: inline-block;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.center {
+    display: inline-block;
+}
+
+.left2{
+    display:inline-block;
+    width:32%;
+}
+.middle{
+    display:inline-block;
+      width:32%;
+}
+.right2{
+    display:inline-block;
+      width:32%;
+}
+
+
+.characters img{
+    width:90%;
+    margin: 10%;
+}
+
+
