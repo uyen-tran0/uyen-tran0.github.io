@@ -6,82 +6,254 @@
     <meta name="description" content="Crimson Peak">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crimson Peak</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Special+Elite&display=swap" rel="stylesheet">
-    
-    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/16e3bbfbc7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
+        <header>
+        <!-- nav -->
         <nav>
+            <a href="#"><img src="img/logo.png" class="logo" alt="Crimson Peak Logo"></a>
             <ul>
-                <li><a href="#synopsis">Synopsis</a></li>
-                <li><a href="#characters">Characters</a></li>
-            <li><a href="">Costume Design</a></li>
-                <li><a href="">Meet the Director</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#synopsis">SYNOPSIS</a></li>
+                <li><a href="#characters">CHARACTERS</a></li>
+                <li><a href="#director">DIRECTOR</a></li>
             </ul>
-        
         </nav>
+
+
+        <!-- hero -->
         <div class="hero-container">
-        <div class="hero-image">
-            <h1 class="hero-text">Welcome to Crimson Peak...</h1>
-            <img src="img/CrimsonPeak.jpg" alt="Crimson Peak">
-        </div>
+            <div class="hero-image">
+                <h1 class="hero-text">Welcome to Crimson Peak...</h1>
+                <img src="img/CrimsonPeak.jpg" alt="Crimson Peak">
             </div>
-            <!-- end hero-container -->
-        
-        <div class="container2">
-        <div class="synopsis">
-            
-            <div class="synopsis-text" id="synopsis">
-                <div class="left"> <p class=h2>Synopsis</p>
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/oquZifON8Eg?si=H5HFZoOT-G6RuOme" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    
-                 <audio src="media/coin.wav" controls></audio>
-                <video src="media/cat.mp4" controls></video>
-                </div>
-                
-                
-                <div class="right"> <p>Lorem ipsum dolor sit amet. 33 adipisci culpa ad soluta molestiae qui illo velit ea dignissimos accusamus et adipisci neque. Et voluptatum voluptatem hic amet velit sed quam doloremque ut eligendi iusto a rerum velit. Nam enim consequatur At dolorum excepturi in quis consectetur nam ullam sint qui corrupti voluptas id dolores aliquid?</p> </div>
-           
-             
-            </div><!-- end synopsis-text -->
-        
-        
-        
-        </div><!-- end synopsis -->
-    
-    <div class="characters" id="characters">
-        <div class="left2">
-        <p class=h2>Edith</p> 
-        <img src="img/c_edith.jpg" alt="Edith" class="black">
         </div>
-        
-        <div class="middle">
-        <p class=h2>Thomas</p>
-        <img src="img/c_thomas.png" alt="Thomas" class="black">
-         </div>
-        
-        <div class="right2">
-        <p class=h2>Lucielle</p>
-        <img src="img/c_lucielle.png" alt="Lucielle" class="black">
-       </div>
-        
-        </div><!-- end character -->
-            <table>
-        <tr>
-            <td>Lorem ipsum dolor sit amet. 33 adipisci culpa ad soluta molestiae qui illo velit ea dignissimos accusamus et adipisci neque. Et voluptatum voluptatem hic amet velit sed quam doloremque ut eligendi iusto a rerum velit. Nam enim consequatur At dolorum excepturi in quis consectetur nam ullam sint qui corrupti voluptas id dolores aliquid?</td>
-            <td>Lorem ipsum dolor sit amet. 33 adipisci culpa ad soluta molestiae qui illo velit ea dignissimos accusamus et adipisci neque. Et voluptatum voluptatem hic amet velit sed quam doloremque ut eligendi iusto a rerum velit. Nam enim consequatur At dolorum excepturi in quis consectetur nam ullam sint qui corrupti voluptas id dolores aliquid?</td>
-            <td>Lorem ipsum dolor sit amet. 33 adipisci culpa ad soluta molestiae qui illo velit ea dignissimos accusamus et adipisci neque. Et voluptatum voluptatem hic amet velit sed quam doloremque ut eligendi iusto a rerum velit. Nam enim consequatur At dolorum excepturi in quis consectetur nam ullam sint qui corrupti voluptas id dolores aliquid?</td> 
-        </tr>
-            </table>
+</header>
+        <!-- main content -->
+        <div class="container2">
+
+            <!-- videos
+            <div class="videos" id="videos">
+                <h2>Videos</h2>
+                <p align="center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oquZifON8Eg?si=H5HFZoOT-G6RuOme" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+            </div>-->
+
+            <!-- videos v2-->
+            <div class="videos" id="videos">
+                <h2>Videos</h2>
+                <div class="main-video">
+                    <video width="560" height="315" controls>
+                    <source src="img/Trailer.mp4">
+                    
+                    </video>
             
-    </div><!-- end container2 -->
-        
-    </div><!-- end container -->
+                </div>
+
+                <div class="sub-videos">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QJDH4mjGrRU?si=CD3VWulfdgSLzN_v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Q9rrqEhbjM?si=rJ6K33BzLtgu9pK2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IZmU5Bi-ZqY?si=gdxRolgtewY4sdqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- synopsis -->
+        <div class="synopsis-container">
+            <section id="synopsis">
+                <img src="img/home_title.png" alt="Crimson Peak Logo">
+
+                <div class="synopsis-text">
+                    <p>From Academy Award-winning director Guillermo del Toro—the visionary behind <i>Pan’s Labyrinth</i> and <i>The Shape of Water</i>—comes a haunting tale of love, betrayal, and ghosts that never rest: <i><span style="color: red">Crimson Peak.</span></i></p>
+                    <br>
+                    <p>Starring Mia Wasikowska, Tom Hiddleston, and Jessica Chastain, <b>Crimson Peak</b> follows Edith Cushing, a young American writer who marries a mysterious English aristocrat and is swept away to a remote, crumbling mansion buried in secrets—and soaked in blood-red clay.</p>
+                    <br>
+                    <p>Trying to escape the grief of her past, Edith finds herself trapped in a house that remembers everything. As the walls bleed and whispers echo through the halls, she begins to uncover the truth: some houses are born bad, and some ghosts don’t come to warn—but to claim.</p>
+                    <br>
+                    <blockquote><p><i><span style="color: red">“Ghosts are real. This much I know.”</span></i></p></blockquote>
+                    <br>
+                    <p>A gothic romance drenched in dread, <b>Crimson Peak</b> is a stunning descent into the dark heart of human desire, featuring tour-de-force performances from Hiddleston and Chastain in roles where nothing is as it seems.</p>
+                    <br>
+                    <p>Written by Guillermo del Toro and Matthew Robbins, <b>Crimson Peak</b> features the masterful work of del Toro’s trusted collaborators: cinematographer Dan Laustsen, editor Bernat Vilaplana, and Oscar-winning costume designer Kate Hawley, with an original score by Fernando Velázquez.</p>
+                    <br>
+                    <p><i>Legendary Pictures and Universal Pictures present a Guillermo del Toro film: <span style="color: red">Crimson Peak.</span></i></p>
+                </div>
+            </section>
+        </div>
+
+        <div class="hero-container">
+
+
+            <!-- characters-->
+            <div class="characters" id="characters">
+                <div>
+                    <h2>Thomas</h2>
+                    <img src="img/c_thomas.png" alt="Thomas">
+                    <p>Baronet Thomas Sharpe is a man caught between two worlds: the crumbling grandeur of his aristocratic lineage and the promise of a new beginning far from it. With his refined manner and haunted gaze, Thomas exudes charm tinged with melancholy. Beneath his polished exterior lies a deeply conflicted soul, torn between loyalty to his family and his growing love for Edith. As secrets unravel, Thomas must confront the darkness he's helped conceal—and choose whether to uphold a legacy built on deception or seek redemption through sacrifice.</p>
+                </div>
+                <div>
+                    <h2>Edith</h2>
+                    <img src="img/c_edith.jpg" alt="Edith">
+                    <p>A sharp-witted and independent American heiress, Edith Cushing is a budding author with a fascination for the supernatural and a heart still scarred by loss. Determined to forge her own path in a world that underestimates her, she falls for a mysterious English baronet and is drawn into a whirlwind romance that takes her far from home. But as the shadows lengthen at Allerdale Hall, Edith’s strength and spirit are tested by forces both living and dead.</p>
+                </div>
+
+                <div>
+                    <h2>Lucille</h2>
+                    <img src="img/c_lucielle.png" alt="Lucille">
+                    <p>Elegant, enigmatic, and unyielding, Lucille Sharpe is the keeper of Allerdale Hall and of the secrets that fester within its walls. Fiercely protective of her brother and bound to the decaying estate that defines her, Lucille moves with cold precision and speaks with unsettling calm. But beneath her composed exterior lies a volatile storm of obsession, grief, and rage. Lucille is both a tragic figure and a chilling force, embodying the film’s most gothic themes—of love turned twisted, of history that refuses to be buried, and of a house that lives through her.</p>
+                </div>
+            </div>
+
+
+
+
+            <!-- director -->
+            <section id="director">
+                <div class="director-info">
     
-    
-</body>
-</html>   
+                    <img src="img/Guillermo-del-Toro.jpeg" alt="Guillermo del Toro Photo" class="director-photo">
+                    <div class="director-description">
+                        <h2>About the Director</h2>
+                        <p>Guillermo del Toro Gómez (born 9 October 1964) is a Mexican filmmaker, author, and artist. His work has been characterized by a strong connection to fairy tales, gothicism and horror often blending the genres, with an effort to infuse visual or poetic beauty in the grotesque. </p>
+                        <br>
+
+                        <p>He has had a lifelong fascination with monsters, which he considers symbols of great power. Known for pioneering dark fantasy in the film industry and for his use of insectile and religious imagery, his themes of Catholicism, and celebrating imperfection, underworld motifs, practical special effects, and dominant amber lighting.</p>
+                    </div>
+                </div>
+
+                <!-- email -->
+                <form method="post">
+                    <p>Get Exclusive News About Upcoming Films</p>
+                    <input type="text" placeholder="your@email.com">
+                    <button>SUBMIT</button>
+                </form>
+            </section>
+
+
+            <!-- other works -->
+            <section id="film-data">
+                <h2>Director's Flimography</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Title</th>
+                                <th>Distributor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1992</td>
+                                <td>Cronos</td>
+                                <td>October Films</td>
+                            </tr>
+                            <tr>
+                                <td>1997</td>
+                                <td>Mimic</td>
+                                <td>Miramax Films</td>
+                            </tr>
+                            <tr>
+                                <td>2001</td>
+                                <td>The Devil's Backbone</td>
+                                <td>Warner Bros. Pictures / Sony Pictures Classics</td>
+                            </tr>
+                            <tr>
+                                <td>2002</td>
+                                <td>Blade II</td>
+                                <td>New Line Cinema</td>
+                            </tr>
+                            <tr>
+                                <td>2004</td>
+                                <td>Hellboy</td>
+                                <td>Sony Pictures Releasing</td>
+                            </tr>
+                            <tr>
+                                <td>2006</td>
+                                <td>Pan's Labyrinth</td>
+                                <td>Warner Bros. Pictures</td>
+                            </tr>
+                            <tr>
+                                <td>2008</td>
+                                <td>Hellboy II: The Golden Army</td>
+                                <td>Universal Pictures</td>
+                            </tr>
+                            <tr>
+                                <td>2013</td>
+                                <td>Pacific Rim</td>
+                                <td>Warner Bros. Pictures</td>
+                            </tr>
+                            <tr>
+                                <td>2015</td>
+                                <td>Crimson Peak</td>
+                                <td>Universal Pictures</td>
+                            </tr>
+                            <tr>
+                                <td>2017</td>
+                                <td>The Shape of Water</td>
+                                <td>Fox Searchlight Pictures</td>
+                            </tr>
+                            <tr>
+                                <td>2021</td>
+                                <td>Nightmare Alley</td>
+                                <td>Searchlight Pictures</td>
+                            </tr>
+                            <tr>
+                                <td>2022</td>
+                                <td>Pinocchio</td>
+                                <td>Netflix</td>
+                            </tr>
+                            <tr>
+                                <td>2025</td>
+                                <td>Frankenstein</td>
+                                <td>—</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </div>
+
+
+        <!-- footer -->
+<footer>
+  <div class="footer-content">
+
+  <div class="socials">
+  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+</div>
+
+    <p class="credits">
+      © 2025 Legendary Pictures & Universal Pictures. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+
+    </div>
+</body></html>
